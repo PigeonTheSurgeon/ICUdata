@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+
 <html>
 <head>
-   <title>藍單小幫手</title>
+   <title>ICU data manager</title>
    <meta charset="utf-8">
 
    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -43,8 +43,8 @@
 
    <script type='text/javascript'>
       $( document ).ready(function() {
-         $('#onsetTime').datetimepicker({
-            format : 'YYYY/MM/DD HH:mm',
+         $('#Patient').datetimepicker({
+            format : '',
          });
          $('#delivery').datetimepicker({
             format : 'YYYY/MM/DD HH:mm',
